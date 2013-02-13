@@ -1,0 +1,60 @@
+SETUP
+
+@initgame <type> <maxnum> <random>
+
+@add <player>
+@rem <player>
+
+@color <color>
+@name <name>
+
+@startgame
+
+
+
+GAME
+
+@trade <card_num> ...
+
+@place <qnt> <country>
+
+
+@attack <country> <country>
+
+@continue
+
+@retreat
+
+@endattacks
+
+
+@fortify <country> <qnt> <country>
+
+@endfortify
+
+
+@cards
+
+
+
+ADMIN
+
+@set <country> <qnt>|<owner>
+
+
+
+END
+
+@endgame
+
+
+
+
+
+
+<bot> Fase 1: placing
+<bot> Fase 2: attacking
+<bot> Fase 3: fortifying
+
+
+
